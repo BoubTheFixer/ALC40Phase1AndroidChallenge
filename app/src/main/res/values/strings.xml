@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ALC 4.0: Phase 1 Android Challenge</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="name">Tusiime Boub</string>
+    <string name="track">Track: Android</string>
+    <string name="email">boubit2002@gmail.com</string>
+    <string name="phone_number">+256776707264</string>
+    <string name="slack_username">Boub</string>
+    <string name="country">Country: Uganda</string>
+    <string name="mail">Mail:</string>
+    <string name="Phone">Phone Number:</string>
+    <string name="slack">Slack Username:</string>
+    <string name="profilepic">Profile Pic</string>
+    <string name="banner">banner</string>
+    <string name="ande">ande</string>
+    <string name="callicon">callIcon</string>
+    <string name = "erroopsproblem">There\'s an error!</string>
+</resources>
