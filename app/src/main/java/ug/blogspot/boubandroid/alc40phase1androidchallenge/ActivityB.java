@@ -1,15 +1,14 @@
 package ug.blogspot.boubandroid.alc40phase1androidchallenge;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.net.http.SslError;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.webkit.SslErrorHandler;
-//import android.webkit.WebResourceError;
-//import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.view.View;
 import android.widget.Toast;
 
 public class ActivityB extends AppCompatActivity {
@@ -17,6 +16,7 @@ public class ActivityB extends AppCompatActivity {
     private WebView mywebview;
     ProgressDialog progress;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +47,7 @@ public class ActivityB extends AppCompatActivity {
             }
         });
         mywebview.getSettings().setLoadsImagesAutomatically(true);
-        //mywebview.getSettings().setJavaScriptEnabled(true);
+        mywebview.getSettings().setJavaScriptEnabled(true);
         mywebview.setScrollBarStyle(View.VISIBLE);
         mywebview.getSettings().setBuiltInZoomControls(true);
         mywebview.getSettings().setSupportZoom(true);
